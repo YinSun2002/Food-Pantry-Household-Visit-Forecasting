@@ -5,7 +5,16 @@ Based on the observation of 4 weeks of the data, our goal is to predict the numb
 
 1. Linear Regression 
 2. LASSO 
-3. 
+3. Neural Network Based Regression\
+4. Gradient Boosting
+5. Decision Tree Regression
+6. Bayesian Ridge Regression
+7. Ridge Regression
+8. Naive Algorithm 1: The number of visits 2 months ago
+9. Naive Algorithm 2: The average number of visits during the last two months
+
+
+	
 | Model | Test Size | AP<sup>test</sup> | AP<sub>50</sub><sup>test</sup> | AP<sub>75</sub><sup>test</sup> | batch 1 fps | batch 32 average time |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: |
 | [**YOLOv7**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | 640 | **51.4%** | **69.7%** | **55.9%** | 161 *fps* | 2.8 *ms* |
