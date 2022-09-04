@@ -7,8 +7,8 @@ Based on the observation of 4 weeks of the data, our goal is to predict the numb
 The predictors used in this experiment are listed as follows:
 
 1. Linear Regression 
-2. LASSO 
-3. Neural Network Based Regression\
+2. LASSO (Regularization Parameter = 0.01)
+3. Neural Network Based Regression (One Hidden Layer with 100 ReLU nodes)
 4. Gradient Boosting
 5. Decision Tree Regression
 6. Bayesian Ridge Regression
@@ -28,4 +28,8 @@ The performance is measured by using Mean Absolution Percentage Error (MAPE).
 | Algorithm | Training Error | Inference Error | Training Error with VAE | Inference Error with VAE | 
 | :-- | :-: | :-: | :-: | :-: | 
 |Linear Regression| 38.06 %| 45.08 %| 25.45 % | 26.4 %|
+| LASSO | 40.16% | 43.35% | 24.7%| 26.6%|
+| Neural Network Based Regression | 33.91% | 44.13% | 24.5% | 25.67%|
+| Gradient Boosting | 0% | 38.44% | 19.11% | 26.6 %|
+
 
