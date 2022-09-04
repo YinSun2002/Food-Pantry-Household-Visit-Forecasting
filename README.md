@@ -1,4 +1,4 @@
-# Food-Pantry-Household-Visit-Forecasting
+# Food Pantry Household Visit Forecasting
 Our dataset contains 336 samples which contains number of client visit in Lakeview FP, number of COVID affected in Lee county, CPI, unemployment rate, average personal income, number of school open days and date of the client visit in every week. 
 
 Based on the observation of 4 weeks of the data, our goal is to predict the number of client visit next week. In this prediction problem, the dataset is split into 80% of the training data and 20% of the inference data. 
