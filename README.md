@@ -1,5 +1,6 @@
 # Food-Pantry-Household-Visit-Forecasting
-The objective of this project is to predict the number of client visits one week ahead. 
+The objective of this project is to predict the number of client visits one week ahead. We used some classical algorithms that are listed below:
+-Linear Regression
 | Model | Test Size | AP<sup>test</sup> | AP<sub>50</sub><sup>test</sup> | AP<sub>75</sub><sup>test</sup> | batch 1 fps | batch 32 average time |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: |
 | [**YOLOv7**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | 640 | **51.4%** | **69.7%** | **55.9%** | 161 *fps* | 2.8 *ms* |
