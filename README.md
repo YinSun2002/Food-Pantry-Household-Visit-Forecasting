@@ -1,7 +1,10 @@
 # Food-Pantry-Household-Visit-Forecasting
-The objective of this project is to predict the number of client visits one week ahead. We used some classical algorithms that are listed below:
-1. Linear Regression \
-2. LASSO \
+Our dataset contains 336 samples which contains number of client visit in Lakeview FP, number of COVID affected in Lee county, CPI, unemployment rate, average personal income, number of school open days and date of the client visit in every week. 
+
+Based on the observation of 4 weeks of the data, our goal is to predict the number of client visit next week. In this prediction problem, the dataset is split into 80% of the training data and 20% of the inference data. The predictors used in this experiment are listed as follows:
+
+1. Linear Regression 
+2. LASSO 
 3. 
 | Model | Test Size | AP<sup>test</sup> | AP<sub>50</sub><sup>test</sup> | AP<sub>75</sub><sup>test</sup> | batch 1 fps | batch 32 average time |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: |
