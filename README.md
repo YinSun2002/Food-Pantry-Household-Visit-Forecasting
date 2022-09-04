@@ -9,10 +9,10 @@ The predictors used in this experiment are listed as follows:
 1. Linear Regression 
 2. LASSO (Regularization Parameter = 0.01)
 3. Neural Network Based Regression (One Hidden Layer with 100 ReLU nodes)
-4. Gradient Boosting
-5. Decision Tree Regression
+4. Gradient Boosting (Max Depth 11)
+5. Decision Tree Regression (Max Depth 19)
 6. Bayesian Ridge Regression
-7. Ridge Regression
+7. Ridge Regression (Regularization Parameter 0.5)
 8. Naive Algorithm 1: The number of visits 2 months ago
 9. Naive Algorithm 2: The average number of visits during the last two months
 
@@ -31,5 +31,11 @@ The performance is measured by using Mean Absolution Percentage Error (MAPE).
 | LASSO | 40.16% | 43.35% | 24.7%| 26.6%|
 | Neural Network Based Regression | 33.91% | 44.13% | 24.5% | 25.67%|
 | Gradient Boosting | 0% | 38.44% | 19.11% | 26.6 %|
+| Decision Tree Regression|  0% | 41.98 %| 25.42% | 26.51%|
+|Bayesian Ridge| 43.07% | 42.36%| 25.43% | 26.4%|
+|Ridge Regression| 41.8% | 41.6%| 25.4% | 26.62% |
+|Naive Algorithm 1| | 71.4%| | |
+|Naive Algorhtm 2| |57%| | |
+
 
 
