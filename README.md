@@ -24,5 +24,8 @@ By using 336 samples and a variational auto encoder, we have generated 835 more 
 
 
 # Performance	
+The performance is measured by using Mean Absolution Percentage Error (MAPE).
 | Algorithm | Training Error | Inference Error | Training Error with VAE | Inference Error with VAE | 
 | :-- | :-: | :-: | :-: | :-: | 
+|Linear Regression| 38.06 %| 45.08 %| 25.45 % | 26.4 %|
+
