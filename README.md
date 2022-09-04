@@ -25,3 +25,4 @@ By using 336 samples and a variational auto encoder, we have generated 835 more 
 
 # Performance	
 | Algorithm | Training Error | Inference Error | Training Error with VAE | Inference Error with VAE | 
+|a |b |c |d |e|
