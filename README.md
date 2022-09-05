@@ -28,14 +28,14 @@ The performance is measured by using Mean Absolution Percentage Error (MAPE).
 | Algorithm | Training Error | Inference Error | Training Error with VAE | Inference Error with VAE | 
 | :-- | :-: | :-: | :-: | :-: | 
 |Linear Regression| 38.06 %| 45.08 %| 25.45 % | 26.4 %|
-| LASSO | 40.16% | 43.35% | 24.7%| 26.6%|
-| Neural Network Based Regression | 33.91% | 44.13% | 24.5% | 25.67%|
-| Gradient Boosting | 0% | 38.44% | 19.11% | 26.6 %|
-| Decision Tree Regression|  0% | 41.98 %| 25.42% | 26.51%|
+|LASSO | 40.16% | 43.35% | 24.7%| 26.6%|
+|Neural Network Based Regression | 33.91% | 44.13% | 24.5% | 25.67%|
+|Gradient Boosting | 0% | 38.44% | 19.11% | 26.6 %|
+|Decision Tree Regression|  0% | 41.98 %| 25.42% | 26.51%|
 |Bayesian Ridge| 43.07% | 42.36%| 25.43% | 26.4%|
 |Ridge Regression| 41.8% | 41.6%| 25.4% | 26.62% |
-|Naive Algorithm 1| | 71.4%| | |
-|Naive Algorhtm 2| |57%| | |
+|Baseline Algorithm 1| | 71.4%| | |
+|Baseline Algorithm 2| |57%| | |
 
 
 
