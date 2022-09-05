@@ -34,8 +34,8 @@ The performance is measured by using Mean Absolution Percentage Error (MAPE).
 | Decision Tree Regression|  0% | 41.98 %| 25.42% | 26.51%|
 |Bayesian Ridge| 43.07% | 42.36%| 25.43% | 26.4%|
 |Ridge Regression| 41.8% | 41.6%| 25.4% | 26.62% |
-|Naive Algorithm 1| | 71.4%| | |
-|Naive Algorhtm 2| |57%| | |
+|Baseline Algorithm 1| | 71.4%| | |
+|Baseline Algorhtm 2| |57%| | |
 
 
 
